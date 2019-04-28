@@ -1,0 +1,54 @@
+.header{
+	border: 2px gold solid;
+	padding: 40px;
+}
+h1{
+	text-align: center;
+	color: orange;
+}
+.menu{
+	grid-template-columns: 1fr 1fr 1fr;
+	display: grid;
+	height: 75px;
+	grid-gap: 10px;
+	margin-right: 25px;
+}
+.slideshow{
+	background-image: url(../images/showcase.png);
+	background-position: center;
+	height:500px;
+	background-repeat: no-repeat;
+}
+a{
+	text-decoration: none;
+}
+li{
+	border: 2px gold solid;
+	color: orange;
+	padding: 20px;
+	list-style: none;
+	text-align: center;
+}
+li:hover{
+	background: white;
+	color: black;
+	border: 2px black solid;
+}
+.caption{
+	text-align: center;
+	font-size: 25px;
+	background: black;
+	color: white;
+	padding: 10px;
+		background-image: linear-gradient(to right, #f38b08, #f7971d);
+}
+
+p{
+	text-align: center;
+	color: #2761ff;
+}
+.footer{
+	border: 2px gold solid;
+	height: 70px;
+	color: orange;
+}

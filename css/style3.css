@@ -1,0 +1,79 @@
+.header{
+	border: 2px gold solid;
+	padding: 40px;
+}
+.menu{
+	grid-template-columns: 1fr 1fr 1fr;
+	display: grid;
+	height: 75px;
+	grid-gap: 10px;
+	margin-right: 25px;
+}
+h1{
+	text-align: center;
+}
+p{
+	margin: 10px;
+	color: orange;
+}
+.slideshow{
+	background-image: url(../images/showcase.png);
+	background-position: center;
+	height:800px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+a{
+	text-decoration: none;
+}
+li{
+	border: 2px gold solid;
+	padding: 20px;
+	list-style: none;
+	text-align: center;
+}
+li:hover{
+	background: white;
+	color: black;
+	border: 2px black solid;
+}
+.about{
+	border: 2px gold solid;
+	margin: 20px;
+}
+.caption{
+	text-align: center;
+	font-size: 25px;
+	background: black;
+	color: white;
+	padding: 10px;
+		background-image: linear-gradient(to right, #f38b08, #f7971d);
+}
+.container{
+	grid-template-columns: 1fr 1fr 1fr;
+	display: grid;
+	height: 75px;
+	grid-gap: 10px;
+	margin-right: 25px;
+}
+.plane{
+	background-image: url(../images/side.png);
+	background-position: center;
+	height:300px;
+		border: 2px #2761ff solid;
+		margin-top: 10px;
+	background-repeat: no-repeat;
+}
+.box{
+	border: 2px #2761ff solid;
+	height: 300px;
+	margin-top: 10px;
+}
+p{
+	text-align: center;
+
+}
+.footer{
+	border: 2px gold solid;
+	height: 70px;
+}
